@@ -54,7 +54,7 @@ CPM_EnsureRepoIsCurrent(
 CPM_ExportAdditionalIncludeDir("${MBEDTLS_INC_DIR}")
 
 set(LIB_INSTALL_DIR lib)
-set(libs ${CPM_LIBRARIES})
+set(libs ${CPM_LIBRARIES} c)
 include_directories("${MBEDTLS_INC_DIR}")
 add_subdirectory("${MBEDTLS_LIB_DIR}")
                                            
