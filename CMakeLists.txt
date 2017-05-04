@@ -47,7 +47,7 @@ message(STATUS "target dir: '${MBEDTLS_SRC_DIR}'")
 CPM_EnsureRepoIsCurrent(
     TARGET_DIR ${MBEDTLS_SRC_DIR}
     GIT_REPOSITORY "https://github.com/ARMmbed/mbedtls.git"
-    GIT_TAG "mbedtls-2.4.0"
+    GIT_TAG "mbedtls-2.4.2"
     USE_CACHING TRUE
     )
 
