@@ -43,11 +43,10 @@ set(MBEDTLS_SRC_DIR "${INC_DIR}/mbedtls/")
 set(MBEDTLS_LIB_DIR "${MBEDTLS_SRC_DIR}library/")
 set(MBEDTLS_INC_DIR "${MBEDTLS_SRC_DIR}include/")
 
-message(STATUS "target dir: '${MBEDTLS_SRC_DIR}'")
 CPM_EnsureRepoIsCurrent(
     TARGET_DIR ${MBEDTLS_SRC_DIR}
     GIT_REPOSITORY "https://github.com/ARMmbed/mbedtls.git"
-    GIT_TAG "mbedtls-2.16.3"
+    GIT_TAG "mbedtls-2.24.0"
     USE_CACHING TRUE
     )
 
